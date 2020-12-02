@@ -32,10 +32,6 @@ export class Tab1Page {
       })
       .catch((err) => {
         console.log('Error', err);
-        this.dataLocal.guardarRegistro(
-          'QRcode',
-          'https://fernando-herrera.com'
-        );
       });
   }
 }

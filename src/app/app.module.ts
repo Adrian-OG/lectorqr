@@ -24,7 +24,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
     StatusBar,
     SplashScreen,
     BarcodeScanner,
-    InAppBrowser
+    InAppBrowser,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
   ],
   bootstrap: [AppComponent],

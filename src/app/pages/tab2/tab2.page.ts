@@ -10,9 +10,6 @@ import { DataLocalService } from '../../services/data-local.service';
 export class Tab2Page {
   constructor(public dataLocal: DataLocalService) {}
 
-  enviarCorreo() {
-    console.log('Enviando Correo');
-  }
   abrirRegistro(registro) {
     this.dataLocal.abrirRegistro(registro);
   }
